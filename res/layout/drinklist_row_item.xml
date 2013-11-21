@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+        
+     <TextView 
+        android:id="@+id/bar_name_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   		android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#CF5300"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+     
+     <TextView 
+        android:id="@+id/day_special_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    	android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#CF5300"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+     
+    <TextView 
+        android:id="@+id/drink_summary_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/bar_name_item"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    
+     <TextView 
+        android:id="@+id/drink_special_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/drink_summary_item"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    
+        
+</RelativeLayout>

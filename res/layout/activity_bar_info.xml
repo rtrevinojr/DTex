@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/darkgrey"
+    
+    android:orientation="vertical" 
+    tools:context=".BarInfo" >
+
+    <TextView
+        android:id="@+id/bar_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#CF5300"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/bar_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/bar_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/bar_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />    
+    
+    <TextView
+        android:id="@+id/bar_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:autoLink="phone" />
+    
+    <TextView
+        android:id="@+id/bar_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:autoLink="web" />    
+    <RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+        <Button
+	        android:id="@+id/list_todays_drinks"
+	        android:layout_width="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:text="@string/list_todays_specials"
+	        android:textColor="@color/white"
+	        android:textStyle="bold"
+	        android:textSize="15sp" />
+
+    	<Button
+	        android:id="@+id/list_drinks"
+	        android:layout_width="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignRight="@+id/list_todays_drinks"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:text="@string/list_drink_specials"
+	        android:textColor="@color/white"
+	        android:textStyle="bold"
+	        android:textSize="15sp" />
+    </RelativeLayout>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:background="@drawable/black_square" >
+    
+		  <fragment
+		      android:id="@+id/bar_info_map"
+		      android:layout_width="match_parent"
+		      android:layout_height="match_parent"
+		      class="com.google.android.gms.maps.MapFragment" />
+    </LinearLayout>
+
+</LinearLayout>

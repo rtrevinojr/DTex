@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DTexAlpha</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bar_info">BarInfo</string>
+    <string name="title_activity_bar_list">BarList</string>
+    <string name="list_drink_specials">Weekly Specials</string>
+    <string name="list_todays_specials">Today\'s Specials</string>
+    <string name="search_day">Search by Day </string>
+    <string name="search_area">Search Area </string>
+    <string name="search_bar">Search Bar </string>
+    <string name="title_activity_search">Search: </string>
+    <string name="todays_specials">Todays Specials </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_drink_list">DrinkList</string>
+    <string name="monday">Monday </string>
+    <string name="tuesday">Tuesday </string>
+    <string name="wednesday">Wednesday </string>
+    <string name="thursday">Thursday </string>
+    <string name="friday">Friday </string>
+    <string name="saturday">Saturday </string>
+    <string name="sunday">Sunday </string>
+    <string name="ut_campus">UT Campus</string>
+    <string name="west_campus">West Campus </string>
+    <string name="dirty_sixth">Dirty 6th </string>
+    <string name="west_sixth">West Sixth </string>
+    <string name="the_domain">Domain </string>
+    <string name="north_austin">North Austin </string>
+    <string name="south_austin">South Austin </string>
+    <string name="rainey">Rainey Street </string>
+    <string name="quit_question">QUIT </string>
+    <string name="yes">Yes </string>
+    <string name="no">No </string>
+    <string name="title_activity_dtex_map">DTexMap</string>
+    <string name="search_map">DTex Map</string>
+    <string name="api_key">AIzaSyA45yBPF7WCGi5oXS53rywjofVssKz2yf8</string>
+    <string name="title_activity_dtex_map_info_window_adapter">DTexMapInfoWindowAdapter</string>
+    <string name="title_activity_dtex_home">DTexHome</string>
+
+</resources>

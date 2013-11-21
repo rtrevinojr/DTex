@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/austin_skyline"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dtex_logo" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/todays_specials"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_trans"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/todays_specials"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_day"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/todays_specials"
+            android:layout_below="@+id/todays_specials"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_trans"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/search_day"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_area"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/search_day"
+            android:layout_below="@+id/search_day"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_trans"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/search_area"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/search_bar"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/search_area"
+            android:layout_below="@+id/search_area"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_trans"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/search_bar"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        
+        <Button
+            android:id="@+id/search_map"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/search_bar"
+            android:layout_below="@+id/search_bar"
+            android:layout_marginTop="20dp"
+            android:background="@color/black_trans"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/search_map"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

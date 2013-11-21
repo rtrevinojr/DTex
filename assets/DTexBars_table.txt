@@ -1,0 +1,4 @@
+1	ChupacabraCantina	400East6thStreet78701	Austin,Texas	512-703-GOAT	http://www.chupacabracantina.com
+2	TheAquariumon6th	403East6thStreet78701	Austin,Texas	512-499-8003	null
+3	TheBlindPigon6th	317East6thStreet78701	Austin,Texas	512-472-0809	null
+4	The512on6th	408East6thStreet78701-3627	Austin,Texas	512-614-4299	www.the512on6th.com
