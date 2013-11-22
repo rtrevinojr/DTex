@@ -16,18 +16,31 @@
         android:gravity="left"
         android:textStyle="bold"
         android:textSize="22sp"
-        android:textColor="#FFFFFF"
+        android:textColor="#CF5300"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
          />
      
      <RatingBar
-        android:id="@+id/rating_bar"
+        android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:numStars="1"
         android:stepSize="1.0"
         android:rating="0.0"
         android:layout_alignParentRight="true" />
+     
+     <TextView 
+        android:id="@+id/bar_address_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   		android:layout_below="@+id/bar_name_2"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+         />
      
 </RelativeLayout>

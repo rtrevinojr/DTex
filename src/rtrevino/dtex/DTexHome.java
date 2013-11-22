@@ -100,7 +100,7 @@ public class DTexHome extends Activity {
 			Intent intent = new Intent(this, DTexHome.class);
 			startActivity(intent);
 			return true;
-		case R.id.search :
+		case R.id.favorite :
 			showDialog(DIALOG_DIFFICULTY_ID);
 			intent = new Intent(this, BarList.class);
 			return true;

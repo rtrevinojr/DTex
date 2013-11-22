@@ -190,7 +190,7 @@ public class BarInfo extends Activity {
 			intent = new Intent(this, BarList.class);
 			startActivity(intent);
 			return true;
-		case R.id.search :
+		case R.id.favorite :
 			showDialog(DTex.DIALOG_DIFFICULTY_ID);
 			return true;
 		case R.id.quit :

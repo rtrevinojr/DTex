@@ -112,7 +112,7 @@ public class DrinkList extends Activity {
 			Intent intent = new Intent(this, DTexHome.class);
 			startActivity(intent);
 			return true;
-		case R.id.search :
+		case R.id.favorite :
 			showDialog(DIALOG_DIFFICULTY_ID);
 			return true;
 		case R.id.quit :
