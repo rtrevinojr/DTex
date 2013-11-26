@@ -5,5 +5,6 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name ="utorange">#CC5500</color>
+    <color name ="blue">#64D4FF</color>
     
 </resources>

@@ -153,6 +153,7 @@ containing a value of this type.
     public static final class color {
         public static final int black=0x7f05000b;
         public static final int black_trans=0x7f05000a;
+        public static final int blue=0x7f05000e;
         public static final int common_action_bar_splitter=0x7f050009;
         /**  Sign-in Button Colors 
          */
@@ -165,8 +166,8 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_disabled=0x7f050006;
         public static final int common_signin_btn_light_text_focused=0x7f050007;
         public static final int common_signin_btn_light_text_pressed=0x7f050005;
-        public static final int common_signin_btn_text_dark=0x7f05000e;
-        public static final int common_signin_btn_text_light=0x7f05000f;
+        public static final int common_signin_btn_text_dark=0x7f05000f;
+        public static final int common_signin_btn_text_light=0x7f050010;
         public static final int utorange=0x7f05000d;
         public static final int white=0x7f05000c;
     }
@@ -224,6 +225,10 @@ containing a value of this type.
         public static final int ic_plusone_small_off_client=0x7f020028;
         public static final int ic_plusone_standard_off_client=0x7f020029;
         public static final int ic_plusone_tall_off_client=0x7f02002a;
+        public static final int ic_toggle=0x7f02002b;
+        public static final int not_rated=0x7f02002c;
+        public static final int rated=0x7f02002d;
+        public static final int toggle_bg=0x7f02002e;
     }
     public static final class id {
         public static final int action_settings=0x7f06002d;
@@ -232,49 +237,49 @@ containing a value of this type.
         public static final int bar_area=0x7f060008;
         public static final int bar_city=0x7f060007;
         public static final int bar_info=0x7f060005;
-        public static final int bar_info_map=0x7f06000d;
+        public static final int bar_info_map=0x7f06000e;
         public static final int bar_list=0x7f06002c;
-        public static final int bar_name_2=0x7f06001c;
+        public static final int bar_name_2=0x7f06001d;
         public static final int bar_name_item=0x7f060026;
         public static final int bar_phone=0x7f060009;
-        public static final int bar_title=0x7f06001b;
+        public static final int bar_title=0x7f06001c;
         public static final int bar_website=0x7f06000a;
         public static final int day_special_item=0x7f060027;
-        public static final int dirty_sixth=0x7f060018;
+        public static final int dirty_sixth=0x7f060019;
         public static final int drink_special_item=0x7f060029;
         public static final int drink_summary_item=0x7f060028;
         public static final int favorite=0x7f06002f;
         public static final int friday=0x7f060024;
         public static final int home=0x7f06002e;
         public static final int hybrid=0x7f060004;
-        public static final int list_drinks=0x7f06000c;
-        public static final int list_todays_drinks=0x7f06000b;
-        public static final int listview1=0x7f06000f;
-        public static final int listview2=0x7f06000e;
-        public static final int logo=0x7f060010;
-        public static final int map=0x7f060016;
+        public static final int list_drinks=0x7f06000d;
+        public static final int list_todays_drinks=0x7f06000c;
+        public static final int listview1=0x7f060010;
+        public static final int listview2=0x7f06000f;
+        public static final int logo=0x7f060011;
+        public static final int map=0x7f060017;
         public static final int map_info_window_addr=0x7f06002b;
         public static final int map_info_window_name=0x7f06002a;
         public static final int monday=0x7f060020;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
-        public static final int north_austin=0x7f06001a;
+        public static final int north_austin=0x7f06001b;
         public static final int quit=0x7f060030;
-        public static final int ratingBar=0x7f06001d;
+        public static final int ratingStar=0x7f06000b;
         public static final int satellite=0x7f060002;
         public static final int saturday=0x7f060025;
-        public static final int search_area=0x7f060013;
-        public static final int search_bar=0x7f060014;
-        public static final int search_day=0x7f060012;
-        public static final int search_map=0x7f060015;
+        public static final int search_area=0x7f060014;
+        public static final int search_bar=0x7f060015;
+        public static final int search_day=0x7f060013;
+        public static final int search_map=0x7f060016;
         public static final int sunday=0x7f06001f;
         public static final int terrain=0x7f060003;
         public static final int thursday=0x7f060023;
-        public static final int todays_specials=0x7f060011;
+        public static final int todays_specials=0x7f060012;
         public static final int tuesday=0x7f060021;
         public static final int wednesday=0x7f060022;
-        public static final int west_campus=0x7f060017;
-        public static final int west_sixth=0x7f060019;
+        public static final int west_campus=0x7f060018;
+        public static final int west_sixth=0x7f06001a;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f080000;
